@@ -1837,7 +1837,7 @@ game.Players.LocalPlayer.Chatted:Connect(function(msg)
 	end
 	if string.sub(msg, 1, 7) == (p.."swing") then
 		local pchar = lplr.Character
-		local AnimationId = "126753849"
+		local AnimationId = "218504594"
 		DanceAnim1 = Instance.new("Animation")
 		DanceAnim1.AnimationId = "rbxassetid://"..AnimationId
 		dance1 = lplr.Character.Humanoid:LoadAnimation(DanceAnim1)
